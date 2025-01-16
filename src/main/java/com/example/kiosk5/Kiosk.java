@@ -4,25 +4,20 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Kiosk {
+    private CategoryManager categoryManager;
+    private Cart cart;
+    private Scanner sc;
+
+    public Kiosk() {
+        this.categoryManager = new CategoryManager();
+        this.cart = new Cart();
+        this.sc = new Scanner(System.in);
+    }
+
     public void start() {
         // https://github.com/google/gson/blob/main/UserGuide.md
-        CategoryManager categoryManager = new CategoryManager();
-        MenuItemCategory burgerCategory = new MenuItemCategory("햄버거");
-        categoryManager.addCategory(burgerCategory);
-        burgerCategory.addItem(new MenuItem("ShackBurger", 6.9, "토마토, 양상추, 쉑소스가 토핑된 치즈버거"));
-        burgerCategory.addItem(new MenuItem("SmokeShack", 8.9, "베이컨, 체리 페퍼에 쉑소스가 토핑된 치즈버거"));
 
-        MenuItemCategory drinkCategory = new MenuItemCategory("음료수");
-        categoryManager.addCategory(drinkCategory);
-        drinkCategory.addItem(new MenuItem("CocaCola", 1.2, "믿고 마시는 코카콜라"));
-        drinkCategory.addItem(new MenuItem("Sprite", 1.2, "청량한 스프라이트"));
-
-        MenuItemCategory dessertCategory = new MenuItemCategory("디저트");
-        categoryManager.addCategory(dessertCategory);
-        dessertCategory.addItem(new MenuItem("Milk IceCream", 2.0, "상하목장 아이스크림"));
-        dessertCategory.addItem(new MenuItem("Choco IceCream", 1.7, "달달한 초코맛"));
-
-        Cart cart = new Cart();
+        setupMenuItem();
 
         //categoryManager.displayCategories();
         Scanner sc = new Scanner(System.in);
@@ -107,5 +102,22 @@ public class Kiosk {
                 answer = sc.nextLine();
             }
         }
+    }
+
+    private void setupMenuItem(){
+        MenuItemCategory burgerCategory = new MenuItemCategory("햄버거");
+        categoryManager.addCategory(burgerCategory);
+        burgerCategory.addItem(new MenuItem("ShackBurger", 6.9, "토마토, 양상추, 쉑소스가 토핑된 치즈버거"));
+        burgerCategory.addItem(new MenuItem("SmokeShack", 8.9, "베이컨, 체리 페퍼에 쉑소스가 토핑된 치즈버거"));
+
+        MenuItemCategory drinkCategory = new MenuItemCategory("음료수");
+        categoryManager.addCategory(drinkCategory);
+        drinkCategory.addItem(new MenuItem("CocaCola", 1.2, "믿고 마시는 코카콜라"));
+        drinkCategory.addItem(new MenuItem("Sprite", 1.2, "청량한 스프라이트"));
+
+        MenuItemCategory dessertCategory = new MenuItemCategory("디저트");
+        categoryManager.addCategory(dessertCategory);
+        dessertCategory.addItem(new MenuItem("Milk IceCream", 2.0, "상하목장 아이스크림"));
+        dessertCategory.addItem(new MenuItem("Choco IceCream", 1.7, "달달한 초코맛"));
     }
 }
