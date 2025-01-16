@@ -16,18 +16,6 @@ public class MenuItem {
         this.description = description;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
     @Override
     public String toString() {
         return String.format("%-15s | W %-2.1f | %s", this.name, this.price, this.description);
