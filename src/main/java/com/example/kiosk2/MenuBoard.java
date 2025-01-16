@@ -39,7 +39,7 @@ public class MenuBoard {
         System.out.println("[ SHAKESHACK MENU ]");
         for (int i = 0; i < menuItems.size(); i++) {
             MenuItem menuItem = menuItems.get(i);
-            System.out.println(menuItem);
+            System.out.println((i+1)+". "+menuItem);
         }
         System.out.println("0. 종료    | 종료");
     }
