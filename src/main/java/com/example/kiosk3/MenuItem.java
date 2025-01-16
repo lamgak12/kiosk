@@ -1,5 +1,9 @@
 package com.example.kiosk3;
-
+/**
+ * 1. 이름, 가격, 설명이 담겨있는 데이터
+ * 2. 이름, 가격, 설명를 각각 불러올 수 있음
+ * 3. MenuItem을 호출하면 정보가 출력되어야함
+ * */
 public class MenuItem {
     private final String name;
     private final double price;
@@ -11,21 +15,8 @@ public class MenuItem {
         this.description = description;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
     @Override
     public String toString() {
-        return String.format("%-15s | W %-2.1f | %s%n",getName(),getPrice(),getDescription());
-        //return "메뉴 이름: " + getName() + "  메뉴 가격: W " + getPrice() + "\t메뉴 설명: " + getDescription();
+        return String.format("%-15s | W %-2.1f | %s%n", this.name, this.price, this.description);
     }
 }
