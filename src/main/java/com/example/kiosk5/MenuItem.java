@@ -1,4 +1,4 @@
-package com.example.kiosk4;
+package com.example.kiosk5;
 
 /**
  * 1. 이름, 가격, 설명이 담겨있는 데이터
