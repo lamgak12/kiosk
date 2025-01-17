@@ -19,10 +19,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         while(true){
+            // 메뉴 헤더
+            System.out.println("[ SHAKESHACK MENU ]");
             // 반복문을 활용해 List 안에 있는 MenuItem을 하나씩 출력
             for (int i = 0; i < menuItems.size(); i++) {
                 System.out.printf("%d. "+menuItems.get(i)+"\n",(i+1));
             }
+            System.out.println("0. 종료    | 종료");
             try { // 입력된 숫자에 따른 처리
                 System.out.print("메뉴를 선택하세요: ");
                 int index = sc.nextInt(); // 숫자를 입력 받기
@@ -34,7 +37,7 @@ public class Main {
                 }
                 // 선택한 메뉴 : 이름, 가격, 설명
                 System.out.println("선택한 메뉴: " + menuItems.get(index - 1));
-
+                break;
             }catch (InputMismatchException e){
                 // menuItems의 인덱스를 입력할때 숫자로 입력했는지 확인
                 System.out.println("숫자를 입력해주세요.");
