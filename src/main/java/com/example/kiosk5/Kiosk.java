@@ -4,11 +4,11 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
-public class Kiosk_t {
+public class Kiosk {
     private final List<Menu> menus;
     private final Scanner sc = new Scanner(System.in);
     private final Cart cart;
-    public Kiosk_t(List<Menu> menus) {
+    public Kiosk(List<Menu> menus) {
         this.menus = menus;
         this.cart = new Cart();
     }
@@ -77,11 +77,7 @@ public class Kiosk_t {
         int quantity = getValidInput(List.of(), "몇 개를 취소하시겠습니까? 숫자를 입력하세요: ", false); // 취소할 수량 입력
 
         // 아이템을 장바구니에서 제거
-        try {
-            cart.removeCartItem(itemIndex, quantity);
-        }catch (IndexOutOfBoundsException e){
-            System.out.println("취소할 수 없는 수량입니다." + e.getMessage());
-        }
+        cart.removeCartItem(itemIndex, quantity);
 
         //return;
     }
