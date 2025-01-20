@@ -106,11 +106,13 @@ kiosk🏪
 
 ## 클래스 다이어그램
 
-![클래스다이어그램.PNG](..%2F..%2F..%2F..%2F..%2F..%2F..%2F%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC%EA%B3%BC%EC%A0%9C%2F%ED%81%B4%EB%9E%98%EC%8A%A4%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.PNG)
+![클래스다이어그램](https://github.com/user-attachments/assets/3d0dba2f-0c45-4d79-94e5-fd6a7dd12349)
+
 
 ## 플로우 차트
 
-![플로우차트.PNG](..%2F..%2F..%2F..%2F..%2F..%2F..%2F%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC%EA%B3%BC%EC%A0%9C%2F%ED%94%8C%EB%A1%9C%EC%9A%B0%EC%B0%A8%ED%8A%B8.PNG)
+![플로우차트](https://github.com/user-attachments/assets/d1ba10ff-854b-458b-827f-08e6b8263b05)
+
 
 ## 주요 메서드 설명
 
@@ -176,26 +178,37 @@ kiosk🏪
 
 ## 구현 결과
 ### 아이템 구매 (장바구니 추가, 할인, 구매완료)
-![흐름1.PNG](..%2F..%2F..%2F..%2F..%2F..%2F..%2F%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC%EA%B3%BC%EC%A0%9C%2F%ED%9D%90%EB%A6%841.PNG)
-![흐름2.PNG](..%2F..%2F..%2F..%2F..%2F..%2F..%2F%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC%EA%B3%BC%EC%A0%9C%2F%ED%9D%90%EB%A6%842.PNG)
+![흐름1](https://github.com/user-attachments/assets/6b4ec7a6-e4f6-48e3-a63e-403abda889f6)
+![흐름2](https://github.com/user-attachments/assets/0b27adaf-4784-4498-b1fd-585a7bab3df6)
+
 ### 아이템 구매 취소 (개수 감소)
-![구매취소1.PNG](..%2F..%2F..%2F..%2F..%2F..%2F..%2F%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC%EA%B3%BC%EC%A0%9C%2F%EA%B5%AC%EB%A7%A4%EC%B7%A8%EC%86%8C1.PNG)
-![구매취소2.PNG](..%2F..%2F..%2F..%2F..%2F..%2F..%2F%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC%EA%B3%BC%EC%A0%9C%2F%EA%B5%AC%EB%A7%A4%EC%B7%A8%EC%86%8C2.PNG)
-![구매취소3.PNG](..%2F..%2F..%2F..%2F..%2F..%2F..%2F%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC%EA%B3%BC%EC%A0%9C%2F%EA%B5%AC%EB%A7%A4%EC%B7%A8%EC%86%8C3.PNG)
+![구매취소1](https://github.com/user-attachments/assets/354d9e33-98ef-44b0-b91f-a4b7f6b8fef8)
+![구매취소2](https://github.com/user-attachments/assets/6e44d9c0-b62d-4b7e-afc5-ee35944b9b7e)
+![구매취소3](https://github.com/user-attachments/assets/f9e87bdc-f87d-4610-a970-7364fc36a384)
+
 ### 아이템 구매 취소 (장바구니에서 삭제)
-![구매취소4.PNG](..%2F..%2F..%2F..%2F..%2F..%2F..%2F%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC%EA%B3%BC%EC%A0%9C%2F%EA%B5%AC%EB%A7%A4%EC%B7%A8%EC%86%8C4.PNG)
+![구매취소4](https://github.com/user-attachments/assets/8a50aa57-5075-48e4-bf25-7838bbd0cd3e)
+
 ### 검증
 #### 메인 메뉴
-![메인메뉴 검증1.PNG](..%2F..%2F..%2F..%2F..%2F..%2F..%2F%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC%EA%B3%BC%EC%A0%9C%2F%EB%A9%94%EC%9D%B8%EB%A9%94%EB%89%B4%20%EA%B2%80%EC%A6%9D1.PNG)
+![메인메뉴 검증1](https://github.com/user-attachments/assets/25eb40d3-acf3-44f6-8d6c-6641db945254)
+
 #### 서브 메뉴
-![서브메뉴 검증.PNG](..%2F..%2F..%2F..%2F..%2F..%2F..%2F%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC%EA%B3%BC%EC%A0%9C%2F%EC%84%9C%EB%B8%8C%EB%A9%94%EB%89%B4%20%EA%B2%80%EC%A6%9D.PNG)
+![서브메뉴 검증](https://github.com/user-attachments/assets/f9fa6f6d-f597-4542-8fb9-64db7fcf1225)
+
 #### 장바구니 추가 전
-![장바구니 추가전 검증1.PNG](..%2F..%2F..%2F..%2F..%2F..%2F..%2F%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC%EA%B3%BC%EC%A0%9C%2F%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88%20%EC%B6%94%EA%B0%80%EC%A0%84%20%EA%B2%80%EC%A6%9D1.PNG)
-![장바구니 추가전 검증2.PNG](..%2F..%2F..%2F..%2F..%2F..%2F..%2F%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC%EA%B3%BC%EC%A0%9C%2F%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88%20%EC%B6%94%EA%B0%80%EC%A0%84%20%EA%B2%80%EC%A6%9D2.PNG)
+![장바구니 추가전 검증1](https://github.com/user-attachments/assets/12819601-5f2c-4af0-bfec-bf765f8d2df5)
+![장바구니 추가전 검증2](https://github.com/user-attachments/assets/cad23721-a74c-4780-9912-111e94e6b29d)
+
 #### 주문 전
-![주문전 검증.PNG](..%2F..%2F..%2F..%2F..%2F..%2F..%2F%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC%EA%B3%BC%EC%A0%9C%2F%EC%A3%BC%EB%AC%B8%EC%A0%84%20%EA%B2%80%EC%A6%9D.PNG)
+![주문전 검증](https://github.com/user-attachments/assets/4dc61b66-7bf3-4437-ac19-a6477c29965e)
+
 #### 주문 후 할인 전
-![주문후 할인전 검증.PNG](..%2F..%2F..%2F..%2F..%2F..%2F..%2F%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC%EA%B3%BC%EC%A0%9C%2F%EC%A3%BC%EB%AC%B8%ED%9B%84%20%ED%95%A0%EC%9D%B8%EC%A0%84%20%EA%B2%80%EC%A6%9D.PNG)
+![주문후 할인전 검증](https://github.com/user-attachments/assets/a92a148c-e230-4c80-b21f-33e3ffc9e819)
+### 주문 취소 전 검증
+![주문취소전 검증1](https://github.com/user-attachments/assets/b6d8abd9-9728-4141-a9d1-c00c7062fbca)
+![주문취소전 검증2](https://github.com/user-attachments/assets/d7de96d5-3a0a-46ad-9f66-52bd332ee309)
+
 
 ## 잘했다고 생각하는 점
 주어진 시간 동안 최대한 구현하려고 노력한 점을 자찬합니다.  
