@@ -14,15 +14,15 @@ public class Main {
 
         // 음료수 메뉴 생성
         Menu drinkMenu = new Menu("Drinks");
-        drinkMenu.addMenuItem(new MenuItem("콜라", 2.5, "청량감 있는 탄산 음료"));
-        drinkMenu.addMenuItem(new MenuItem("레몬에이드", 3.2, "상큼한 레몬과 설탕이 어우러진 음료"));
-        drinkMenu.addMenuItem(new MenuItem("아이스 커피", 3.5, "차가운 커피로 시원하게"));
+        drinkMenu.addMenuItem(new MenuItem("Coke", 2.5, "청량감 있는 탄산 음료"));
+        drinkMenu.addMenuItem(new MenuItem("Lemonade", 3.2, "상큼한 레몬과 설탕이 어우러진 음료"));
+        drinkMenu.addMenuItem(new MenuItem("Ice Coffee", 3.5, "차가운 커피로 시원하게"));
 
         // 디저트 메뉴 생성
         Menu dessertMenu = new Menu("Desserts");
-        dessertMenu.addMenuItem(new MenuItem("초코 케이크", 4.0, "진한 초콜릿의 케이크"));
-        dessertMenu.addMenuItem(new MenuItem("치즈 케이크", 4.5, "부드러운 치즈맛의 케이크"));
-        dessertMenu.addMenuItem(new MenuItem("아이스크림", 2.0, "시원한 아이스크림"));
+        dessertMenu.addMenuItem(new MenuItem("Chocolate Cake", 4.0, "진한 초콜릿의 케이크"));
+        dessertMenu.addMenuItem(new MenuItem("Cheese Cake", 4.5, "부드러운 치즈맛의 케이크"));
+        dessertMenu.addMenuItem(new MenuItem("IceCream", 2.0, "시원한 아이스크림"));
 
         List<Menu> menus = new ArrayList<>();
         menus.add(burgerMenu);
