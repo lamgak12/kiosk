@@ -183,7 +183,7 @@ kiosk🏪
 
 ### 아이템 구매 취소 (개수 감소)
 ![구매취소1](https://github.com/user-attachments/assets/354d9e33-98ef-44b0-b91f-a4b7f6b8fef8)
-![구매취소2](https://github.com/user-attachments/assets/6e44d9c0-b62d-4b7e-afc5-ee35944b9b7e)
+![구매취소2](https://github.com/user-attachments/assets/6e44d9c0-b62d-4b7e-afc5-ee35944b9b7e)  
 ![구매취소3](https://github.com/user-attachments/assets/f9e87bdc-f87d-4610-a970-7364fc36a384)
 
 ### 아이템 구매 취소 (장바구니에서 삭제)
@@ -206,7 +206,7 @@ kiosk🏪
 #### 주문 후 할인 전
 ![주문후 할인전 검증](https://github.com/user-attachments/assets/a92a148c-e230-4c80-b21f-33e3ffc9e819)
 ### 주문 취소 전 검증
-![주문취소전 검증1](https://github.com/user-attachments/assets/b6d8abd9-9728-4141-a9d1-c00c7062fbca)
+![주문취소전 검증1](https://github.com/user-attachments/assets/b6d8abd9-9728-4141-a9d1-c00c7062fbca)  
 ![주문취소전 검증2](https://github.com/user-attachments/assets/d7de96d5-3a0a-46ad-9f66-52bd332ee309)
 
 
