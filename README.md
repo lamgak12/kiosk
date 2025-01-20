@@ -178,11 +178,11 @@ kiosk🏪
 
 ## 구현 결과
 ### 아이템 구매 (장바구니 추가, 할인, 구매완료)
-![흐름1](https://github.com/user-attachments/assets/6b4ec7a6-e4f6-48e3-a63e-403abda889f6)
+![흐름1](https://github.com/user-attachments/assets/6b4ec7a6-e4f6-48e3-a63e-403abda889f6)  
 ![흐름2](https://github.com/user-attachments/assets/0b27adaf-4784-4498-b1fd-585a7bab3df6)
 
 ### 아이템 구매 취소 (개수 감소)
-![구매취소1](https://github.com/user-attachments/assets/354d9e33-98ef-44b0-b91f-a4b7f6b8fef8)
+![구매취소1](https://github.com/user-attachments/assets/354d9e33-98ef-44b0-b91f-a4b7f6b8fef8)  
 ![구매취소2](https://github.com/user-attachments/assets/6e44d9c0-b62d-4b7e-afc5-ee35944b9b7e)  
 ![구매취소3](https://github.com/user-attachments/assets/f9e87bdc-f87d-4610-a970-7364fc36a384)
 
@@ -197,7 +197,7 @@ kiosk🏪
 ![서브메뉴 검증](https://github.com/user-attachments/assets/f9fa6f6d-f597-4542-8fb9-64db7fcf1225)
 
 #### 장바구니 추가 전
-![장바구니 추가전 검증1](https://github.com/user-attachments/assets/12819601-5f2c-4af0-bfec-bf765f8d2df5)
+![장바구니 추가전 검증1](https://github.com/user-attachments/assets/12819601-5f2c-4af0-bfec-bf765f8d2df5)  
 ![장바구니 추가전 검증2](https://github.com/user-attachments/assets/cad23721-a74c-4780-9912-111e94e6b29d)
 
 #### 주문 전
