@@ -18,21 +18,19 @@ public class Cart {
         // 동일한 MenuItem이 이미 있는지 확인
         for (CartItem cartItem : cartItems) {
             if (cartItem.getMenuItem().equals(menuItem)) {
-                cartItem.setQuantity(quantity); // 수량 증가
+                cartItem.setQuantity(cartItem.getQuantity()+quantity); // 이미 있으면 수량 증가
                 return;
             }
         }
         // 없으면 새로운 CartItem 추가
         cartItems.add(new CartItem(menuItem, quantity));
-        System.out.println(menuItem.getName()+"이(가)" + quantity + "개 장바구니에 추가되었습니다.");
+        System.out.println(menuItem.getName()+"이(가) " + quantity + "개 장바구니에 추가되었습니다.");
     }
+
     public void removeCartItem(int index, int quantity) {
-        if (index < 1 || index > cartItems.size()) {
-            System.out.println("잘못된 아이템 선택입니다.");
-            return;
-        }
 
         CartItem cartItem = cartItems.get(index - 1);
+
         if (cartItem.getQuantity() <= quantity) {
             cartItems.remove(cartItem); // 수량이 삭제하려는 수량 이하이면 아이템 삭제
             System.out.println(cartItem.getMenuItem().getName() + "이(가) 장바구니에서 삭제되었습니다.");
@@ -41,6 +39,7 @@ public class Cart {
             System.out.println(cartItem.getMenuItem().getName() + "의 수량이 " + quantity + "개만큼 감소되었습니다.");
         }
     }
+
     public void printCart() {
         if (cartItems.isEmpty()) {
             System.out.println("장바구니가 비었습니다.");
@@ -56,13 +55,14 @@ public class Cart {
         System.out.printf("W %.1f%n", getTotalPrice());
     }
 
-    public double getTotalPrice() {
+    private double getTotalPrice() { // 제품 단가 * 개수 계산
         double total = 0.0;
         for (CartItem cartItem : cartItems) {
             total += cartItem.getSubTotalPrice();
         }
         return total;
     }
+
     // 장바구니 총액 계산
     public double calculateTotalPrice() {
         double total = 0;
